@@ -1,0 +1,18 @@
+# Local editor and operating-system files
+.vscode/
+.idea/
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local Python preview / tooling
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+
+# Never publish local secrets
+.env
+.env.*
+!.env.example
