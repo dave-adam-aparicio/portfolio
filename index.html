@@ -53,8 +53,8 @@
       </div>
     </div></section>
     <section class="section container" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading"><div><p class="eyebrow">03 / Featured projects</p><h2 id="projects-title">Engineering you can inspect.</h2></div><p>Explore a Salesforce-to-Snowflake pipeline through its code, synchronization logic, and step-by-step verification workflow. Additional projects remain clearly marked as placeholders.</p></div>
-      <!-- Featured project details are verified against the published notebook. -->
+      <div class="section-heading"><div><p class="eyebrow">03 / Featured projects</p><h2 id="projects-title">Engineering you can inspect.</h2></div><p>Explore a Salesforce-to-Snowflake pipeline and a Python duplicate-file toolkit through their code, design decisions, and verification workflows. Additional projects remain clearly marked as placeholders.</p></div>
+      <!-- Featured project details reflect the published repositories. -->
       <div class="project-grid">
         <article class="project-card featured-project" aria-labelledby="etl-title">
           <div class="project-top"><span class="project-number">01 / DATA ENGINEERING</span><span class="badge">Featured project</span></div>
@@ -68,8 +68,20 @@
           <ul class="tag-list"><li>Python</li><li>Jupyter</li><li>pandas</li><li>Salesforce API</li><li>Snowflake</li><li>Incremental ETL</li><li>SQL MERGE</li><li>Soft deletes</li></ul>
           <div class="project-footer"><a href="https://github.com/dave-adam-aparicio/salesforce-snowflake-etl">View repository <span aria-hidden="true">↗</span></a><a href="https://github.com/dave-adam-aparicio/salesforce-snowflake-etl/blob/main/notebooks/salesforce_snowflake_sync.ipynb">Daily sync notebook <span aria-hidden="true">↗</span></a><a href="https://github.com/dave-adam-aparicio/salesforce-snowflake-etl/blob/main/notebooks/salesforce_snowflake_monthly_reconciliation.ipynb">Monthly reconciliation <span aria-hidden="true">↗</span></a></div>
         </article>
-        <article class="project-card"><div class="project-top"><span class="project-number">02 / SYSTEMS</span><span class="badge">Placeholder</span></div><div class="project-symbol" aria-hidden="true">~/systems</div><h3>Linux administration</h3><p>A space for a verified Linux administration project: its environment, configuration decisions, troubleshooting, and operational checks.</p><ul class="tag-list"><li>Linux</li><li>System configuration</li></ul><div class="project-footer">Details and repository to be added <span aria-hidden="true">↳</span></div></article>
-        <article class="project-card"><div class="project-top"><span class="project-number">03 / AUTOMATION</span><span class="badge">Placeholder</span></div><div class="project-symbol" aria-hidden="true">$ automate</div><h3>Infrastructure automation</h3><p>A space for an automation case study: the repeatable task, implementation approach, safeguards, and demonstrated results.</p><ul class="tag-list"><li>Infrastructure</li><li>Automation</li></ul><div class="project-footer">Details and documentation to be added <span aria-hidden="true">↳</span></div></article>
+        <article class="project-card featured-project" aria-labelledby="duplicate-scanner-title">
+          <div class="project-top"><span class="project-number">02 / PYTHON &amp; FILESYSTEMS</span><span class="badge">Featured project</span></div>
+          <div class="project-symbol" aria-hidden="true">Scan → SQLite → Review → Cleanup</div>
+          <h3 id="duplicate-scanner-title">Duplicate File Scanner &amp; Cleanup Toolkit</h3>
+          <p>A Python filesystem auditing utility that identifies duplicate files by whole-file SHA-256 content hashes and stores scan results in SQLite. Scanning and cleanup are separate commands: preview changes and choose whether to retain the alphabetically first path or the most recently modified copy before moving or deleting duplicates.</p>
+          <div class="featured-details">
+            <div><h4>Choose what to keep</h4><p>Newest-file retention reads current filesystem modification times at nanosecond precision, with an alphabetical tie-breaker. Either policy works with quarantine moves or deletion; cleanup requires an explicit apply option.</p></div>
+            <div><h4>Verify before cleanup</h4><p>Recheck the retained copy and cleanup candidates against recorded content hashes. Read-only previews, collision-safe quarantine paths, and recorded move mappings support review and recovery. Automated tests use disposable directories; design notes document filesystem race and metadata-preservation limits.</p></div>
+          </div>
+          <ul class="tag-list"><li>Python</li><li>SQLite</li><li>Recursive filesystem traversal</li><li>Cryptographic hashing</li><li>File metadata inspection</li><li>Safe file management</li><li>Command-line interfaces</li><li>Automated testing</li></ul>
+          <div class="project-footer"><a href="https://github.com/dave-adam-aparicio/duplicate-file-scanner">View toolkit repository <span aria-hidden="true">↗</span></a><a href="https://github.com/dave-adam-aparicio/duplicate-file-scanner/blob/main/README.md#retention-policies">Retention policies &amp; usage <span aria-hidden="true">↗</span></a><a href="https://github.com/dave-adam-aparicio/duplicate-file-scanner/blob/main/docs/design.md">Design &amp; safety review <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card"><div class="project-top"><span class="project-number">03 / SYSTEMS</span><span class="badge">Placeholder</span></div><div class="project-symbol" aria-hidden="true">~/systems</div><h3>Linux administration</h3><p>A space for a verified Linux administration project: its environment, configuration decisions, troubleshooting, and operational checks.</p><ul class="tag-list"><li>Linux</li><li>System configuration</li></ul><div class="project-footer">Details and repository to be added <span aria-hidden="true">↳</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">04 / AUTOMATION</span><span class="badge">Placeholder</span></div><div class="project-symbol" aria-hidden="true">$ automate</div><h3>Infrastructure automation</h3><p>A space for an automation case study: the repeatable task, implementation approach, safeguards, and demonstrated results.</p><ul class="tag-list"><li>Infrastructure</li><li>Automation</li></ul><div class="project-footer">Details and documentation to be added <span aria-hidden="true">↳</span></div></article>
 
       </div>
     </section>

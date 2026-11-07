@@ -2,6 +2,8 @@
 
 The homepage features the published [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl). Its daily incremental sync and separate monthly deleted-record reconciliation notebooks are linked from the homepage. The owner reports both workflows working with live data. Implementation details, monthly maintenance instructions, and notebook walkthroughs live in the project repository, avoiding duplicated technical documentation here.
 
+The second featured project is the published [Duplicate File Scanner & Cleanup Toolkit](https://github.com/dave-adam-aparicio/duplicate-file-scanner). Its retention-policy usage and design/safety review are linked directly from the homepage. Technical documentation and automated tests remain in the toolkit repository to keep the portfolio summary aligned with the implementation.
+
 This directory remains available for future verified project case studies. The systems and automation homepage entries are still placeholders.
 
 When ready, add a static HTML case study (for example, `linux-lab.html`) and link it from the matching card in `../index.html`. Use `../assets/css/style.css` from this directory. GitHub Pages does not convert Markdown to HTML with `.nojekyll`; use HTML for browser-facing case studies, or link to Markdown on GitHub.

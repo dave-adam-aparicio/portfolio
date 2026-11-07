@@ -4,6 +4,8 @@ A responsive professional portfolio for David Aparicio (`dave-adam-aparicio`), p
 
 The first featured project is the [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl), synchronizing Account, Contact, and Opportunity with metadata-driven schemas, SystemModstamp watermarks, temporary staging and ID-based MERGE. Its separate monthly reconciliation compares Salesforce IDs in Snowflake, retrieves and merges missing records, and soft-flags deleted records while preserving their payloads. The monthly notebook includes preview mode, deletion rechecks, and per-object transactions, and is intended to run after hours with daily loads paused. The owner reports both workflows working with live data; repository checks remain offline and do not establish production readiness. Both notebooks are linked from the homepage.
 
+The second featured project is the [Duplicate File Scanner & Cleanup Toolkit](https://github.com/dave-adam-aparicio/duplicate-file-scanner). It recursively inventories files, compares whole-file SHA-256 hashes, and stores scan history in SQLite. A separate cleanup command previews or explicitly applies moves/deletions while retaining either the alphabetically first path or the newest-modified copy. The showcase links to retention-policy usage and the design/safety review, and highlights content revalidation, quarantine recovery mappings, and automated tests in disposable directories. Filesystem race and metadata-preservation limitations are documented in the project repository.
+
 Contact links use the confirmed details:
 
 - Email: [david.adam.aparicio@gmail.com](mailto:david.adam.aparicio@gmail.com)
