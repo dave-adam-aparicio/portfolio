@@ -1,10 +1,15 @@
-# Engineering portfolio
+# David Aparicio — Engineering portfolio
 
-A responsive professional portfolio for `dave-adam-aparicio`, prepared for GitHub Pages at <https://dave-adam-aparicio.github.io/portfolio/>. It connects a background in data analysis and database development with a developing focus on Linux administration, infrastructure, and automation.
+A responsive professional portfolio for David Aparicio (`dave-adam-aparicio`), prepared for GitHub Pages at <https://dave-adam-aparicio.github.io/portfolio/>. It connects a background in data analysis and database development with a developing focus on Linux administration, infrastructure, and automation.
 
 The first featured project is the [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl), synchronizing Account, Contact, and Opportunity with metadata-driven schemas, SystemModstamp watermarks, temporary staging and ID-based MERGE. Its Jupyter workflow emphasizes interactive inspection, validation and troubleshooting. The source was reported working by its owner; publication checks were offline and do not establish production readiness.
 
-Unconfirmed personal information and the remaining systems/automation entries stay explicitly labeled as placeholders.
+Contact links use the confirmed details:
+
+- Email: [david.adam.aparicio@gmail.com](mailto:david.adam.aparicio@gmail.com)
+- LinkedIn: [David Aparicio](https://www.linkedin.com/in/david-adam-aparicio/)
+
+Unconfirmed background details and the remaining systems/automation entries stay explicitly labeled as placeholders.
 
 ## Structure and technologies
 
@@ -40,12 +45,12 @@ Before publishing, check the page at narrow mobile, tablet, and desktop widths; 
 
 Edit `index.html` to:
 
-1. Replace `[Your name]` and update the page title, description, and header branding.
-2. Confirm your introduction, location (if desired), and preferred career direction. Remove the editorial note in About after editing.
+1. Keep the confirmed name, page title, description, and header branding current.
+2. Update your introduction and preferred career direction as needed; add a location only if desired.
 3. Add verified employers, job titles, dates, responsibilities, and outcomes to Background. Remove bracketed guidance after filling it in.
 4. Confirm skills and distinguish professional experience from learning. Do not add credentials unless earned.
 5. Replace project placeholders with real work, an accurate status, technical descriptions, and supporting evidence. Remove the section's placeholder explanation only when all entries are real, or update it to match remaining placeholders.
-6. Replace the email and LinkedIn text placeholders with real anchors, such as `href="mailto:your-address"` and your confirmed HTTPS profile URL. Confirm the GitHub profile link. There is no contact form or backend.
+6. Keep the email, LinkedIn, and GitHub profile links current. There is no contact form or backend.
 
 Copy an existing `<article class="project-card">` to add a project. Each card supports a title, description, tags, status, and a footer. Replace footer text with meaningful links to real repositories, documentation, and case studies; do not use `href="#"` or nonexistent URLs. See `projects/README.md` for case-study guidance. Use `projects/your-case-study.html` for a case study linked from the homepage and `assets/images/your-image.webp` for homepage images. Include descriptive `alt` text and image dimensions when adding screenshots.
 
