@@ -2,7 +2,7 @@
 
 A responsive professional portfolio for David Aparicio (`dave-adam-aparicio`), prepared for GitHub Pages at <https://dave-adam-aparicio.github.io/portfolio/>. It connects a background in data analysis and database development with a developing focus on Linux administration, infrastructure, and automation.
 
-The first featured project is the [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl), synchronizing Account, Contact, and Opportunity with metadata-driven schemas, SystemModstamp watermarks, temporary staging and ID-based MERGE. Its Jupyter workflow emphasizes interactive inspection, validation and troubleshooting. The source was reported working by its owner; publication checks were offline and do not establish production readiness.
+The first featured project is the [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl), synchronizing Account, Contact, and Opportunity with metadata-driven schemas, SystemModstamp watermarks, temporary staging and ID-based MERGE. Its separate monthly reconciliation compares Salesforce IDs in Snowflake, retrieves and merges missing records, and soft-flags deleted records while preserving their payloads. The monthly notebook includes preview mode, deletion rechecks, and per-object transactions, and is intended to run after hours with daily loads paused. The owner reports both workflows working with live data; repository checks remain offline and do not establish production readiness. Both notebooks are linked from the homepage.
 
 Contact links use the confirmed details:
 

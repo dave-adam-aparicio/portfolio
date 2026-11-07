@@ -1,6 +1,6 @@
 # Project case studies
 
-The homepage features the published [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl). Its implementation reference and notebook walkthrough live in the project repository, avoiding duplicated technical documentation here.
+The homepage features the published [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl). Its daily incremental sync and separate monthly deleted-record reconciliation notebooks are linked from the homepage. The owner reports both workflows working with live data. Implementation details, monthly maintenance instructions, and notebook walkthroughs live in the project repository, avoiding duplicated technical documentation here.
 
 This directory remains available for future verified project case studies. The systems and automation homepage entries are still placeholders.
 
