@@ -1,6 +1,8 @@
 # Project case studies
 
-This directory is reserved for verified project documentation. No completed projects are claimed by the current placeholders.
+The homepage features the published [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl). Its implementation reference and notebook walkthrough live in the project repository, avoiding duplicated technical documentation here.
+
+This directory remains available for future verified project case studies. The systems and automation homepage entries are still placeholders.
 
 When ready, add a static HTML case study (for example, `linux-lab.html`) and link it from the matching card in `../index.html`. Use `../assets/css/style.css` from this directory. GitHub Pages does not convert Markdown to HTML with `.nojekyll`; use HTML for browser-facing case studies, or link to Markdown on GitHub.
 

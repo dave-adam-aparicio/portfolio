@@ -2,7 +2,9 @@
 
 A responsive professional portfolio for `dave-adam-aparicio`, prepared for GitHub Pages at <https://dave-adam-aparicio.github.io/portfolio/>. It connects a background in data analysis and database development with a developing focus on Linux administration, infrastructure, and automation.
 
-The initial site deliberately labels unconfirmed personal information and project entries as placeholders. It does not claim completed projects, employers, certifications, or measurable outcomes that have not been supplied.
+The first featured project is the [Salesforce-to-Snowflake Incremental ETL Pipeline](https://github.com/dave-adam-aparicio/salesforce-snowflake-etl), synchronizing Account, Contact, and Opportunity with metadata-driven schemas, SystemModstamp watermarks, temporary staging and ID-based MERGE. Its Jupyter workflow emphasizes interactive inspection, validation and troubleshooting. The source was reported working by its owner; publication checks were offline and do not establish production readiness.
+
+Unconfirmed personal information and the remaining systems/automation entries stay explicitly labeled as placeholders.
 
 ## Structure and technologies
 
@@ -53,16 +55,16 @@ Change color variables at the top of `assets/css/style.css` to adjust the palett
 
 Edit a small set of content or styling changes, preview locally, check mobile layout and keyboard access, then review the diff before committing. Keep placeholder status honest as projects evolve. Once Pages is configured, each push to `main` triggers deployment automatically; a separate build command is unnecessary.
 
-## First commit and push
+## Commit and push
 
-These commands are instructions for the repository owner. No commit or push is performed as part of the initial implementation.
+Review and commit each intended update locally. Push only after approval:
 
 ```bash
 git status
 git diff
 git add index.html assets projects README.md .gitignore .nojekyll
 git diff --cached
-git commit -m "Create engineering portfolio website"
+git commit -m "docs: update portfolio content"
 git push -u origin main
 ```
 
